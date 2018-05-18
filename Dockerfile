@@ -1,7 +1,7 @@
 #
 # Dockerfile for dante-server
 #
-FROM resin/intel-nuc-debian:stable-slim
+FROM resin/intel-nuc-debian:latest
 
 ENV DANTE_VER 1.4.2
 ENV DANTE_URL https://www.inet.no/dante/files/dante-$DANTE_VER.tar.gz
